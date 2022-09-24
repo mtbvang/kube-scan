@@ -457,7 +457,7 @@ spec:
     spec:
       containers:
         - name: kube-scan-ui
-          image: octarinesec/kubescan-scanner-ui:20.5
+          image: siddharth67/kubescan-scanner:latest
           imagePullPolicy: Always
           env:
             - name: API_SERVER_PORT
